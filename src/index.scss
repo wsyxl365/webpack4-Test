@@ -1,0 +1,37 @@
+body {
+  .avatar {
+    width: 150px;
+    height: 150px;
+    transform: translate(100px, 100px);
+  }
+}
+@font-face {font-family: "iconfont";
+  src: url('./font/iconfont.eot?t=1552274511697'); /* IE9 */
+  src: url('./font/iconfont.eot?t=1552274511697#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANMAAsAAAAABzQAAAL9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqBbIFmATYCJAMQCwoABCAFhG0HSxtbBhEVlItkf4BMbvUDpMxIltLNEQyQicppAwEX0HdBpVAFPwAAAABAENBaOnu7/9kQKlBRyckAsiVwRCQMkCWobX1ZXlQJ3K87OuB/4BudblmrANMCi0vrba0GkFHNxgP8sXw/LhPoaGfjSMDUKpDxNGkCZXYBtuTxemGQtdXWpqguoyIUa50H3+UZCexw+XxHAv7+94PJ0JwA+J9jxiubQH7b2iUqKSpotDfAUbQOrPuqyO5A8BSG17rUYV2HAC6CmcRWZn45msLmCSCuW5pq0DknRYkRTbDXbM2IJ0DHufgaWAn/Xvxi0GCwJdhNxY0Z9SRbIys5+k+Qt9p8FkDcBRKYQEGc19pqkXHQJLnoo5VIoGkG5hrQyjE1wI65th2M0f88UYSluwEIR0jCGrlkGLAWpdTJXyB4gRIFQHujlFhQBcMGohMEmXzr31DleTxQfzgqaWthdcrbY1x29j3OZrvz+d50ujOZRJwsG+JtPP/g+eAetK3d7fQW/s4O5lHPzavmtd67yzr87v8NljffPh8Pf7hWenlJp1Ne8gZOygEbse9JIz0+Jk+8InDA5dgQr6L4LmaO9fFmrTCwa4WNlPvGGA7xfzIMl7rk2m+fRv3y14mq1tKf5rh1b1//FFGHQ6Y//9/xdf5P5vesUIaQ6VXWRC7PXKWEkAAM4GIb4ddGwcfnOVT+9x8WNP8UDE6CQNJCEApjgo2rcLDTksBFmKzdrny1I4nsDISaIiB4uQCDhweQvLxBKMwnsAnwBey8ggQXlaJ3pCuJYbol2Cj20P5h6ngnx6i3KPOOg10byQpD3BvFTB4IXL8YqXFHmWOF+QyhKgEJb1CR23BdGQ7hGTt1R9Wj9Dyq+yG34825SbBR7EH7B1PHO/m19Vb6/TsOdm2kpazO+kYx0/Ag4PJ7IGrZ3qvsXt5iPkNIlQAJb6AiFlztIIOjftKMnbrGEf6j5NFq1Ffmrq/YvnAbVLFvzCGGFHIo4HJqdmXbiPA3ztMTNftop9NsjWXHAQAAAA==') format('woff2'),
+  url('./font/iconfont.woff?t=1552274511697') format('woff'),
+  url('./font/iconfont.ttf?t=1552274511697') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./font/iconfont.svg?t=1552274511697#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconjiantouarrow486:before {
+  content: "\e6aa";
+}
+
+.iconfanhui:before {
+  content: "\e624";
+}
+
+.iconsousuo:before {
+  content: "\e632";
+}
+
+
