@@ -1,5 +1,6 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     mode: "development",
     entry: {
@@ -37,7 +38,8 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         options: {
-                            importLoaders: 2 //保证scss里面引入其他的scss 都会走底下的2个loader
+                            importLoaders: 2, //保证scss里面引入其他的scss 都会走底下的2个loader 保证js和scss文件里面引用 都走下面2个文件
+                            // modules: true
                         }
                     },
                     'sass-loader', //翻译scss语法
@@ -61,6 +63,7 @@ module.exports = {
         new htmlWebpackPlugin({
             filename: "index.html",
             template: path.resolve(__dirname, 'src/index.html')
-        })
+        }),
+        new CleanWebpackPlugin()
     ]
 }

@@ -1,7 +1,7 @@
 //import './index.scss'; //全局样式 不建议引入; => css module
 // import style from './index.scss'; //css module
  import createAvatar from "./createAvatar";
-import './index.scss';
+// import './index.scss';
 import testImg from "./testImg.jpg";
 // console.log('哈哈哈');
 // let arr = [1,2,4];
