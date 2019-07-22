@@ -12,7 +12,14 @@ import testImg from "./testImg.jpg";
 //         resolve();
 //     } )
 // };
+consle.log("哈哈哈");
 createAvatar();
+let img = new Image();
+img.src = testImg;
+img.className = 'avatar';
+
+document.getElementById('root').append(img);
+
 // let root = document.getElementById("root");
 // let imgDom = document.createElement('img');
 // imgDom.src = testImg;
@@ -34,4 +41,7 @@ createAvatar();
 //     // console.log(a)
 // }
 //test();
+
+
+
 
